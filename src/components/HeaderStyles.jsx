@@ -10,14 +10,15 @@ export const useStyles=makeStyles(()=>({
         backgroundRepeat:"no-repeat",
         backgroundSize:'cover'
     } ,
-    // HeaderContainer:{
-    //     minHeight:"90vh",
-    //     height:'auto',
-    //     width:"100%",
-    //     display:"flex",
-    //     flexFlow:"column wrap",
-    //     alignItems:"center"
-    // },
+    HeaderContainer:{
+        minHeight:"90vh",
+        height:'auto',
+        width:"100%",
+        display:"flex",
+        flexFlow:"column wrap",
+        alignItems:"center",
+        justifyContent:"center"
+    },
     navbar:{
         backgroundColor:Theme.colors.base1,
         color:Theme.colors.base2,

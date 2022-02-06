@@ -8,12 +8,12 @@ const classes=useStyles()
   return(
     <Box className={classes.HeaderWrapper}>
         <Navbar/>
-     <Box>
-     <Box className={classes.Headercontainer}>
+     
+     <Box className={classes.HeaderContainer}>
       <Typography variant='h2' component="h4" className={classes.headerTitle}> Hello Developers...</Typography>
-      <Typography variant='h2' component="h4" className={classes.headerTitle}> I will create good websites and applications on your need.. .</Typography>
+      <Typography variant='h2' component="h4" className={classes.headerTitle}> I will create websites and applications on your need.. .</Typography>
       </Box>
-     </Box>
+     
     </Box>
   )
 }
